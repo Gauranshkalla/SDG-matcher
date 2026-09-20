@@ -1,0 +1,6 @@
+streamlit>=1.50
+pandas
+numpy
+scikit-learn      # pin to the version you trained with, e.g. scikit-learn==1.8.0
+openpyxl          # reading the master sheet (training only)
+iterative-stratification   # optional: stratified multi-label split (training only)
