@@ -44,7 +44,7 @@ st.title("🎯 SDG Connect")
 st.write(
     "Enter your manuscript's **title, abstract and keywords**. The tool checks them against "
     "Elsevier's SDG search queries (exact Boolean match), cross-checks with a machine-learning model, "
-    "and - if the exact match fails - suggests small wording changes **you** can accept or ignore."
+    "and - if the exact match fails - suggests small wording changes **you** can accept."
 )
 
 # ------------------------------------------------------------------ loading
