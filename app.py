@@ -1,5 +1,5 @@
 """
-SDG Word Finder - Streamlit app
+SDG Connect - Streamlit app
   streamlit run app.py
 """
 
@@ -12,7 +12,7 @@ import sdg_boolean as sb
 import sdg_ml as ml
 import sdg_pipeline as pl
 
-st.set_page_config(page_title="SDG Word Finder", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="SDG Connect", page_icon="🎯", layout="wide")
 
 
 @st.cache_resource(show_spinner="Parsing Elsevier SDG query files (first run only)...")
@@ -40,7 +40,7 @@ with st.sidebar:
     show_all = st.checkbox("Show all 17 SDGs in the table", value=False)
 
 # ------------------------------------------------------------------ header
-st.title("🎯 SDG Word Finder")
+st.title("🎯 SDG Connect")
 st.write(
     "Enter your manuscript's **title, abstract and keywords**. The tool checks them against "
     "Elsevier's SDG search queries (exact Boolean match), cross-checks with a machine-learning model, "
