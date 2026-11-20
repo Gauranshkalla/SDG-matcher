@@ -47,6 +47,12 @@ st.write(
     "and - if the exact match fails - suggests small wording changes **you** can accept."
 )
 
+st.info(
+    "🔒 **Privacy:** Nothing you enter here is saved, logged or shared by this tool. "
+    "Your title, abstract and keywords are analysed in memory for your session only and "
+    "are discarded when you close or refresh the page."
+)
+
 # ------------------------------------------------------------------ loading
 try:
     engine = get_engine(query_dir)
